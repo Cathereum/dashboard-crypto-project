@@ -1,0 +1,53 @@
+.earn-free {
+  position: relative;
+  padding: 40px 40px 67px 34px;
+
+  width: 410px;
+  height: 363px;
+  background: #222222;
+  border-radius: 30px;
+
+  color: white;
+
+  background-image: url("./../../../img/earn-card/bg-cards.svg");
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: right bottom;
+}
+
+.earn-free__title {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 11px;
+}
+
+.earn-free__title-free {
+  width: 97.3px;
+  height: 74.73px;
+  vertical-align: middle;
+}
+
+.earn-free__text {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.earn-free__btn {
+  display: inline-block;
+
+  padding-left: 36px;
+  padding-right: 36px;
+  height: 46px;
+  background: #bcdfff;
+  border-radius: 23px;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  line-height: 46px;
+}

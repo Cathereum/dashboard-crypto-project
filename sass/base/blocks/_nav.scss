@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav__logo {
+  margin-bottom: 132px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__icons {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul.nav__icons-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav__icons-list-last-icon {
+  margin-top: auto !important;
+}

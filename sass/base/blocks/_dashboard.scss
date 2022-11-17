@@ -1,0 +1,141 @@
+.dashboard {
+  position: fixed;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  background: #202020;
+  border-radius: 50px;
+
+  max-width: 1439px;
+
+  display: flex;
+}
+
+.dashboard__nav {
+  width: 138px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  flex-shrink: 0;
+}
+
+.dashboard__body {
+  background: #ffffff;
+  border-radius: 45px;
+
+  margin: 17px 19px 11px 0;
+  padding: 26px 56px 54px 68px;
+
+  flex-grow: 1;
+}
+
+.dashboard__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.dashboard__header-title {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.dashboard__header-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.header__icon {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  width: 48px;
+  height: 48px;
+  background-color: #f2f5fa;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: #cacccf;
+  }
+}
+
+.header__icon-new {
+  position: relative;
+}
+
+.header__icon-new::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #ff5e5e;
+  bottom: 50%;
+  left: 50%;
+}
+
+.user__profile {
+  height: 54px;
+  background: #f2f5fa;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: #cacccf;
+  }
+}
+
+.user__profile-avatar {
+  margin-top: -16px;
+  margin-right: 6px;
+  margin-left: 4px;
+}
+
+.user__profile-nav {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    display: block;
+    content: "";
+    background-image: url("../img/top-icons/down.svg");
+    width: 12px;
+    height: 7px;
+    margin-right: 21px;
+    margin-left: 8px;
+  }
+}
+
+.dashboard__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 51px;
+}
+
+.dashboard__market {
+  display: flex;
+  gap: 48px;
+  justify-content: space-between;
+}

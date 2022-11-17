@@ -1,0 +1,41 @@
+.market {
+  flex-grow: 1;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.market__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.market__header-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.market__header-btn {
+  position: relative;
+  height: 44px;
+  padding-left: 18px;
+  padding-right: 38px;
+  line-height: 44px;
+  border: 1px solid #eff2f4;
+  border-radius: 22px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 12px;
+    height: 7px;
+    background-image: url("./../img/top-icons/down.svg");
+  }
+}
